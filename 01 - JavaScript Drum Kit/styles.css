@@ -1,0 +1,49 @@
+html {
+  font-size: 16px;
+  background: url('scene.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+}
+
+.keys {
+  display: flex;
+}
+
+.key {
+  background: rgba(255,255,255,0.2);
+  border: 0.3rem solid #000;
+  border-radius: 0.4rem;
+  color: #000;
+  margin: 5rem 1rem;
+  padding: 0.4rem;
+  text-align: center;
+  transition: all .07s ease;
+  width: 6rem;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: #A3709B;
+  -webkit-box-shadow: 0 0 1rem #A3709B;
+  box-shadow: 0 0 1rem #A3709B;
+}
+
+kbd {
+  display: block;
+  font-size: 2.5rem;
+}
+
+.sound {
+  color: ##706e6d;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+}
